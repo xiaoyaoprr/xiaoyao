@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 414798832@qq.com 414798832@qq.com, 414798832@qq.com414798832@qq.com, LIC=FYKYW-QP9CC-74YS0-BL39V-TV5YR-LT1XS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\BaiduNetdiskDownload\筛选平台 串口控制剔除电机 pwm控制传送带电机-双定时器test-current\筛选平台 串口控制剔除电机+pwm控制传送带电机-双定时器test-current\USER\USART.uvprojx
+Project File Date:  06/05/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Rebuild target 'USART'
+assembling startup_stm32f40_41xxx.s...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling main.c...
+main.c(32): warning:  #177-D: variable "t"  was declared but never referenced
+  	u8 t;
+main.c(34): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 i=0,count=0;
+main.c(34): warning:  #177-D: variable "count"  was declared but never referenced
+  	u8 i=0,count=0;
+main.c(35): warning:  #177-D: variable "times"  was declared but never referenced
+  	u16 times=0;  
+main.c: 4 warnings, 0 errors
+compiling stm32f4xx_gpio.c...
+compiling led.c...
+compiling misc.c...
+compiling beep.c...
+compiling sys.c...
+compiling delay.c...
+compiling key.c...
+compiling usart.c...
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(101): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TIMER\timer.c: 1 warning, 0 errors
+compiling driver.c...
+compiling stm32f4xx_rcc.c...
+compiling usmart.c...
+..\USMART\usmart.c(275): warning:  #9-D: nested comment is not allowed
+  //*str:字符串指针.
+..\USMART\usmart.c: 1 warning, 0 errors
+compiling usmart_str.c...
+..\USMART\usmart_str.c(12): warning:  #9-D: nested comment is not allowed
+  //********************************************************************************
+..\USMART\usmart_str.c(63): warning:  #9-D: nested comment is not allowed
+  //*str1:字符串1指针
+..\USMART\usmart_str.c(64): warning:  #9-D: nested comment is not allowed
+  //*str2:字符串2指针
+..\USMART\usmart_str.c(78): warning:  #9-D: nested comment is not allowed
+  //*str1:字符串1指针
+..\USMART\usmart_str.c(79): warning:  #9-D: nested comment is not allowed
+  //*str2:字符串2指针			   
+..\USMART\usmart_str.c(91): warning:  #9-D: nested comment is not allowed
+  //*str:字符串指针
+..\USMART\usmart_str.c(115): warning:  #9-D: nested comment is not allowed
+  //*str:数字字符串指针
+..\USMART\usmart_str.c(116): warning:  #9-D: nested comment is not allowed
+  //*res:转换完的结果存放地址.
+..\USMART\usmart_str.c(159): warning:  #9-D: nested comment is not allowed
+  //*str:源字符串
+..\USMART\usmart_str.c(160): warning:  #9-D: nested comment is not allowed
+  //*cmdname:指令名
+..\USMART\usmart_str.c(161): warning:  #9-D: nested comment is not allowed
+  //*nlen:指令名长度		
+..\USMART\usmart_str.c(188): warning:  #9-D: nested comment is not allowed
+  //*str:源字符串指针
+..\USMART\usmart_str.c(189): warning:  #9-D: nested comment is not allowed
+  //*fname:获取到的函数名字指针
+..\USMART\usmart_str.c(190): warning:  #9-D: nested comment is not allowed
+  //*pnum:函数的参数个数
+..\USMART\usmart_str.c(191): warning:  #9-D: nested comment is not allowed
+  //*rval:是否需要显示返回值(0,不需要;1,需要)
+..\USMART\usmart_str.c(297): warning:  #9-D: nested comment is not allowed
+  //*str:源字符串指针
+..\USMART\usmart_str.c(298): warning:  #9-D: nested comment is not allowed
+  //*fparm:参数字符串指针
+..\USMART\usmart_str.c(299): warning:  #9-D: nested comment is not allowed
+  //*ptype:参数类型 0，数字;1，字符串;0XFF，参数错误
+..\USMART\usmart_str.c: 18 warnings, 0 errors
+compiling usmart_config.c...
+..\USMART\usmart_config.c(19): warning:  #9-D: nested comment is not allowed
+  	/**********  FOR MOTOR DRIVER**********/
+..\USMART\usmart_config.c: 1 warning, 0 errors
+compiling lcd.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_tim.c...
+linking...
+Program Size: Code=36790 RO-data=7082 RW-data=100 ZI-data=1852  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil.STM32F4xx_DFP.2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\PACKS\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
